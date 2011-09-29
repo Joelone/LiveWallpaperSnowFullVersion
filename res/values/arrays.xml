@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+	<string-array name="particle_density_entries">
+    	<item>little</item>
+    	<item>middle</item>
+    	<item>many</item>
+    </string-array>
+    
+    <string-array name="particle_density_values">
+    	<item>256</item>
+    	<item>512</item>
+    	<item>1024</item>
+  	</string-array>
+  	
+  	<string-array name="particle_speed_entries">
+	   	<item>slow</item>
+	   	<item>middle</item>
+	   	<item>fast</item>
+	</string-array>
+	    
+	<string-array name="particle_speed_values">
+	   	<item>3072</item>
+	   	<item>4096</item>
+	   	<item>5120</item>
+	</string-array>
+	
+	<string-array name="background_skin_entries">
+	   	<item>none</item>
+	   	<item>gradation</item>
+	</string-array>
+	
+	<string-array name="background_skin_values">
+	   	<item>0</item>
+	   	<item>1</item>
+	</string-array>
+	
+	<string-array name="background_moon_entries">
+	   	<item>visible</item>
+	   	<item>invisible</item>
+	</string-array>
+	
+	<string-array name="background_moon_values">
+	   	<item>1</item>
+	   	<item>0</item>
+	</string-array>
+</resources>

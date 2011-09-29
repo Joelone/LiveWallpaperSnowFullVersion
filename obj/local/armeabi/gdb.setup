@@ -1,0 +1,4 @@
+set solib-search-path C:/Users/Masaya/eclipse/android/LiveWallPaperSnowFull/obj/local/armeabi
+directory C:/Users/Masaya/android_native/ndk-r6/platforms/android-5/arch-arm/usr/include C:/Users/Masaya/android_native/ndk-r6/sources/cxx-stl/system/include C:/Users/Masaya/eclipse/android/LiveWallPaperSnowFull/jni
+file C:/Users/Masaya/eclipse/android/LiveWallPaperSnowFull/obj/local/armeabi/app_process
+target remote :5039

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Live Wallpaper Snowfall</string>
+    <string name="service_label">ライブ壁紙：雪</string>
+    <string name="description">雪のライブ壁紙</string>
+    <string name="wallpaper_settings">Wallpaper Settings</string>
+    
+    <!-- 設定画面 -->
+    <string name="setting_activity_title">設定</string>
+    
+    <!-- オブジェクト数の設定 -->
+    <string name="particle_density_key">PerticleDensityKey</string>
+    <string name="particle_density_title">雪の量</string>
+    <string name="particle_density_summary">雪の量を設定</string>
+    
+    <!-- 落下速度の設定 -->
+    <string name="particle_speed_key">PerticleSpeedKey</string>
+    <string name="particle_speed_title">落ちる速さ</string>
+    <string name="particle_speed_summary">落ちる速さの選択</string>
+    
+    <!-- 背景 -->
+    <string name="background_skin_key">BackgroundSkinKey</string>
+    <string name="background_skin_title">背景</string>
+    <string name="background_skin_summary">背景の設定</string>
+    
+    <!-- 背景 月の表示/非表示-->
+    <string name="background_moon_key">BackgroundMoonKey</string>
+    <string name="background_moon_title">月の表示</string>
+    <string name="background_moon_summary">月の表示/非表示の設定</string>
+</resources>

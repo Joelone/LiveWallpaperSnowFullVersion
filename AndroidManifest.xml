@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="jp.ks.livewallpaper.opengl.snowfull"
+      android:versionName="1.0" android:versionCode="6">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="false">
+    	<meta-data android:value="abcdefghijklmno" android:name="a14e75596403699"/>
+		<service android:label="@string/service_label" 
+				 android:name=".SnowWallpaperService"
+				 android:permission="android.permission.BIND_WALLPAPER">
+			
+			<intent-filter>
+				<action android:name="android.service.wallpaper.WallpaperService" />
+			</intent-filter>
+			<meta-data android:name="android.service.wallpaper"
+				android:resource="@xml/glwallpaperservice" />
+		</service>
+		
+		<activity
+    	    android:label="@string/wallpaper_settings"
+    	    android:name=".LiveWallpaperSettings"
+    	    android:theme="@android:style/Theme.Black"
+    	    android:exported="true">
+    	</activity>
+    	
+    	<activity   
+ 			android:name="com.google.ads.AdActivity"  
+ 			android:configChanges="keyboard|keyboardHidden|orientation"/>
+    	
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+	<uses-feature android:name="android.software.live_wallpaper" android:required="true" />
+	<uses-permission android:name="android.permission.SET_WALLPAPER" />
+<!-- 
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+ -->
+</manifest> 

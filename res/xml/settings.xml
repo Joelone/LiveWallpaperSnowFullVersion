@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/jp.ks.livewallpaper.opengl.snowfull"
+    android:title="@string/setting_activity_title">
+  <ListPreference
+      android:key="@string/particle_density_key"
+      android:title="@string/particle_density_title"
+      android:summary="@string/particle_density_summary"
+      android:entries="@array/particle_density_entries"
+      android:entryValues="@array/particle_density_values" />
+  <ListPreference
+      android:key="@string/particle_speed_key"
+      android:title="@string/particle_speed_title"
+      android:summary="@string/particle_speed_summary"
+      android:entries="@array/particle_speed_entries"
+      android:entryValues="@array/particle_speed_values" />
+  <ListPreference
+      android:key="@string/background_skin_key"
+      android:title="@string/background_skin_title"
+      android:summary="@string/background_skin_summary"
+      android:entries="@array/background_skin_entries"
+      android:entryValues="@array/background_skin_values" />
+  <ListPreference
+      android:key="@string/background_moon_key"
+      android:title="@string/background_moon_title"
+      android:summary="@string/background_moon_summary"
+      android:entries="@array/background_moon_entries"
+      android:entryValues="@array/background_moon_values" />    
+
+</PreferenceScreen>
